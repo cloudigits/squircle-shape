@@ -1,0 +1,476 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.stoyanvuchev",
+    "module": "squircle-shape",
+    "version": "5.3.0-js1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.11.0-alpha07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-metadata.jar",
+          "url": "squircle-shape-5.3.0-js1.jar",
+          "size": 8196,
+          "sha512": "4f584460b28263ca247003fb41aa45e53ff26dc5ed0e8f3f20a3a11179ce035eb77fb760fa173c29eff1736940fa0b00f89a0c6716447a6e52a681d73e6ae410",
+          "sha256": "1e8c075173988e17209859bb7ef2e1fb77721ff8493ed5af4a5dcf0ee94d91a6",
+          "sha1": "89e29780b2450e98b3906c900e3d12b8163dcd07",
+          "md5": "f16f1236dcf792cb9e867cc406397df2"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "library-kotlin-sources.jar",
+          "url": "squircle-shape-5.3.0-js1-sources.jar",
+          "size": 17284,
+          "sha512": "203b5aa17329d125179d2b35d5c67e44aa116dd8b7a72b5c788c6070daaf0225055df935fb284c329af577aca8769e949c311e3ad2268904d39c6c2688d4306d",
+          "sha256": "6ce4dc086e4a8793dc0240b84c546eddde11b63d1f6f382a4ef1f30c1136e00a",
+          "sha1": "92332182ec768718d7c1fda251ad1570b3989266",
+          "md5": "e9af10bf4c4e0bd580fe12302b023447"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-android/5.3.0-js1/squircle-shape-android-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-android",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-android/5.3.0-js1/squircle-shape-android-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-android",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-android/5.3.0-js1/squircle-shape-android-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-android",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-desktop/5.3.0-js1/squircle-shape-desktop-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-desktop",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-desktop/5.3.0-js1/squircle-shape-desktop-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-desktop",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-desktop/5.3.0-js1/squircle-shape-desktop-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-desktop",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-iosarm64/5.3.0-js1/squircle-shape-iosarm64-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-iosarm64",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-iosarm64/5.3.0-js1/squircle-shape-iosarm64-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-iosarm64",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-iosarm64/5.3.0-js1/squircle-shape-iosarm64-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-iosarm64",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-iosarm64/5.3.0-js1/squircle-shape-iosarm64-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-iosarm64",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-iossimulatorarm64/5.3.0-js1/squircle-shape-iossimulatorarm64-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-iossimulatorarm64",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-iossimulatorarm64/5.3.0-js1/squircle-shape-iossimulatorarm64-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-iossimulatorarm64",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-iossimulatorarm64/5.3.0-js1/squircle-shape-iossimulatorarm64-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-iossimulatorarm64",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-iossimulatorarm64/5.3.0-js1/squircle-shape-iossimulatorarm64-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-iossimulatorarm64",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-js/5.3.0-js1/squircle-shape-js-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-js",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-js/5.3.0-js1/squircle-shape-js-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-js",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-js/5.3.0-js1/squircle-shape-js-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-js",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-js/5.3.0-js1/squircle-shape-js-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-js",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-wasm-js/5.3.0-js1/squircle-shape-wasm-js-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-wasm-js",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-wasm-js/5.3.0-js1/squircle-shape-wasm-js-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-wasm-js",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-wasm-js/5.3.0-js1/squircle-shape-wasm-js-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-wasm-js",
+        "version": "5.3.0-js1"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../squircle-shape-wasm-js/5.3.0-js1/squircle-shape-wasm-js-5.3.0-js1.module",
+        "group": "com.stoyanvuchev",
+        "module": "squircle-shape-wasm-js",
+        "version": "5.3.0-js1"
+      }
+    }
+  ]
+}

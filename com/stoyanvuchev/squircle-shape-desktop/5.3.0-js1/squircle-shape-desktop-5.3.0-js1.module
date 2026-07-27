@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../squircle-shape/5.3.0-js1/squircle-shape-5.3.0-js1.module",
+    "group": "com.stoyanvuchev",
+    "module": "squircle-shape",
+    "version": "5.3.0-js1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-desktop.jar",
+          "url": "squircle-shape-desktop-5.3.0-js1.jar",
+          "size": 25590,
+          "sha512": "092312b05c2804240d23f5da104907865b498a9ed7a71228c15bac9ac13c0f3c9e0cdb553360018e1d01130ecd027ca7f90a832cbcab13fd8dea8b1d53295d2a",
+          "sha256": "2bb53afe443265d138d67e210e5ee389704b425d735ccf1ba21a1ada6d641113",
+          "sha1": "bd5d123b6c0b658288d107ac1a8d4397fdc402e9",
+          "md5": "b4d7a3591ad61d14665566bf117dead2"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.11.0-alpha07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-desktop.jar",
+          "url": "squircle-shape-desktop-5.3.0-js1.jar",
+          "size": 25590,
+          "sha512": "092312b05c2804240d23f5da104907865b498a9ed7a71228c15bac9ac13c0f3c9e0cdb553360018e1d01130ecd027ca7f90a832cbcab13fd8dea8b1d53295d2a",
+          "sha256": "2bb53afe443265d138d67e210e5ee389704b425d735ccf1ba21a1ada6d641113",
+          "sha1": "bd5d123b6c0b658288d107ac1a8d4397fdc402e9",
+          "md5": "b4d7a3591ad61d14665566bf117dead2"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "library-desktop-sources.jar",
+          "url": "squircle-shape-desktop-5.3.0-js1-sources.jar",
+          "size": 17284,
+          "sha512": "203b5aa17329d125179d2b35d5c67e44aa116dd8b7a72b5c788c6070daaf0225055df935fb284c329af577aca8769e949c311e3ad2268904d39c6c2688d4306d",
+          "sha256": "6ce4dc086e4a8793dc0240b84c546eddde11b63d1f6f382a4ef1f30c1136e00a",
+          "sha1": "92332182ec768718d7c1fda251ad1570b3989266",
+          "md5": "e9af10bf4c4e0bd580fe12302b023447"
+        }
+      ]
+    }
+  ]
+}

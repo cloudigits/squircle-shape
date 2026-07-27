@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../squircle-shape/5.3.0-js1/squircle-shape-5.3.0-js1.module",
+    "group": "com.stoyanvuchev",
+    "module": "squircle-shape",
+    "version": "5.3.0-js1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-wasm-js.klib",
+          "url": "squircle-shape-wasm-js-5.3.0-js1.klib",
+          "size": 31372,
+          "sha512": "6151bd9235f12ef8c8dae99b5bba96cfa4ddaddb81577ef481f8f3be1f5e412419bf068bfa6228806cc9b68face48798c16b48f977a712f113619459f91d556d",
+          "sha256": "91f8e1ca9fbb7f1343edf22e38164b2b20b28f2cf40c8e04744ad9edb9461189",
+          "sha1": "14e8c8b344321820b4d1797cab4541cd88932ac5",
+          "md5": "2662df028ea810d5dddef967ad323e2b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.11.0-alpha07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-wasm-js.klib",
+          "url": "squircle-shape-wasm-js-5.3.0-js1.klib",
+          "size": 31372,
+          "sha512": "6151bd9235f12ef8c8dae99b5bba96cfa4ddaddb81577ef481f8f3be1f5e412419bf068bfa6228806cc9b68face48798c16b48f977a712f113619459f91d556d",
+          "sha256": "91f8e1ca9fbb7f1343edf22e38164b2b20b28f2cf40c8e04744ad9edb9461189",
+          "sha1": "14e8c8b344321820b4d1797cab4541cd88932ac5",
+          "md5": "2662df028ea810d5dddef967ad323e2b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "library-wasm-js-sources.jar",
+          "url": "squircle-shape-wasm-js-5.3.0-js1-sources.jar",
+          "size": 17284,
+          "sha512": "203b5aa17329d125179d2b35d5c67e44aa116dd8b7a72b5c788c6070daaf0225055df935fb284c329af577aca8769e949c311e3ad2268904d39c6c2688d4306d",
+          "sha256": "6ce4dc086e4a8793dc0240b84c546eddde11b63d1f6f382a4ef1f30c1136e00a",
+          "sha1": "92332182ec768718d7c1fda251ad1570b3989266",
+          "md5": "e9af10bf4c4e0bd580fe12302b023447"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.11.0-alpha07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library.kotlin_resources.zip",
+          "url": "squircle-shape-wasm-js-5.3.0-js1-kotlin_resources.kotlin_resources.zip",
+          "size": 330,
+          "sha512": "ea920c82741908cc2f5993eff797ab27aa71577254afa171f9732d3a4b83808b2f82617575aa8f65732887356dfd3fb3c56613655e584eff2843911ffd7030b8",
+          "sha256": "bade9470f6b33b944ebd242fea05a40cec928044b00f8a09be0bd7cfb4cf0011",
+          "sha1": "14245c8a426f84367ddb3cc3e4c2874d00c48141",
+          "md5": "3b2995edb4b75ed2be10d2db040d793d"
+        }
+      ]
+    }
+  ]
+}
