@@ -1,7 +1,7 @@
 [versions]
 
 # Library
-squircleShape = "5.3.0"
+squircleShape = "5.3.0-js1"
 
 # Plugins
 composePlugin = "1.11.1"
